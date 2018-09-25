@@ -1,7 +1,7 @@
 {
   "name": "n-gram-similarity",
   "version": "1.0.0",
-  "description": "Set bounds. Feed sentences. ???. Profit!",
+  "description": "Set your bounds. Feed it your sentences. ??? Profit!",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/BrekiTomasson/n-gram-similarity/issues"
   },
-  "homepage": "https://github.com/BrekiTomasson/n-gram-similarity#readme"
+  "homepage": "https://github.com/BrekiTomasson/n-gram-similarity#readme",
+  "devDependencies": {
+    "codacy-coverage": "^2.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-breki": "^1.0.6",
+    "jest": "^22.4.3",
+    "jest-runner-eslint": "^0.4.0"
+  },
+  "dependencies": {}
 }
